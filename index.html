@@ -1,9 +1,4 @@
-<body>
-  <font face ='Nobile'>
-    <div class='htmlVersion'>No css</div>
-   </font>
-   <div class='cssVersion'>No Extra Html</div>
-</body>
+<font face ="Arial">
 <h1><strong>Contents</strong></h1>
 
 <h4><strong><a href="#list-of-figures">List of figures</a></strong></h4>
@@ -18,9 +13,9 @@
 
 <h5><strong><a href="#2dot1-data-source">2.1 - Data source</a></strong></h5>
 
-<h5><strong><a href="#2dot2-checking-data-consistency">2.2 – Checking data consistency</a></strong></h5>
+<h5><strong><a href="#2dot2-checking-data-consistency">2.2 - Checking data consistency</a></strong></h5>
 
-<h5><strong><a href="#2dot3-testing-network-data">2.3 – Testing network data</a></strong></h5>
+<h5><strong><a href="#2dot3-testing-network-data">2.3 - Testing network data</a></strong></h5>
 
 <h4><strong><a href="#3-network-analysis">3 - Network Analysis</a></strong></h4>
 
@@ -32,15 +27,15 @@
 
 <h5><strong><a href="#4dot1-the-irish-cinema-sector">4.1 - The Irish cinema sector</a></strong></h5>
 
-<h5><strong><a href="#4dot2-scenario-1">4.2 - Scenario 1 – Current situation (i.e., neither proposed cinema is built)</a></strong></h5>
+<h5><strong><a href="#4dot2-scenario-1">4.2 - Scenario 1 - Current situation (i.e., neither proposed cinema is built)</a></strong></h5>
 
-<h5><strong><a href="#4dot3-scenario-2">4.3 – Scenario 2 – Only Marshes proposal is approved</a></strong></h5>
+<h5><strong><a href="#4dot3-scenario-2">4.3 - Scenario 2 - Only Marshes proposal is approved</a></strong></h5>
 
-<h5><strong><a href="#4dot5-scenario-4">4.4 – Scenario 3 – Only Retail Park proposal is approved</a></strong></h5>
+<h5><strong><a href="#4dot5-scenario-4">4.4 - Scenario 3 - Only Retail Park proposal is approved</a></strong></h5>
 
-<h5><strong><a href="#4dot5-scenario-4">4.5 – Scenario 4 – Both proposals are approved</a></strong></h5>
+<h5><strong><a href="#4dot5-scenario-4">4.5 - Scenario 4 - Both proposals are approved</a></strong></h5>
 
-<h5><strong><a href="#4dot6-commentary-on-viability-of-proposals">4.6 – Commentary on viability of proposals</a></strong></h5>
+<h5><strong><a href="#4dot6-commentary-on-viability-of-proposals">4.6 - Commentary on viability of proposals</a></strong></h5>
 
 <h4><strong><a href="#5-conclusions-and-critical-commentary">5 - Conclusions and Critical Commentary</a></strong></h4>
 
@@ -105,7 +100,7 @@ In the late 1990s the Adelphi closed, to be replaced later by commercial lots an
 
 <p>Two developments from this period important for both Dundalk as a whole and this project were completed during this period: the Dundalk Retail Park, which opened in 2003 with Harvey Norman as its marquee client, and The Marshes Shopping Centre, which opened in 2005. These 2 developments, along with Carroll Village, significantly reshaped the commercial and social life of the town after they were opened, drawing foot traffic away from Clanbrassil Street, the town’s shopping district, and towards previously peripheral parts of the town.</p>
 
-<p>As much as these developments have reshaped the town, however, they have still faced significant problems, along with Dundalk as a whole. Over the last half-decade in the wake of the Global Financial Crisis of 2008, Dundalk has faced serious economic hardship, with Louth as a county having one of the nation’s highest unemployment rates (The Argus, 2012). All 3 of the developments mentioned have lost marquee clients since that period – Harvey Norman and Superquinn have withdrawn from Dundalk totally (Campbell, 2012) (The Dundalk Democrat, 2013), while HMV, one of The Marshes’ most successful outlets, recently went into receivership and closed all its Irish stores. All 3 developments now have several vacant lots on their premises, with Carroll Village in particular now empty except for its cinema and its apartments.</p>
+<p>As much as these developments have reshaped the town, however, they have still faced significant problems, along with Dundalk as a whole. Over the last half-decade in the wake of the Global Financial Crisis of 2008, Dundalk has faced serious economic hardship, with Louth as a county having one of the nation’s highest unemployment rates (The Argus, 2012). All 3 of the developments mentioned have lost marquee clients since that period - Harvey Norman and Superquinn have withdrawn from Dundalk totally (Campbell, 2012) (The Dundalk Democrat, 2013), while HMV, one of The Marshes’ most successful outlets, recently went into receivership and closed all its Irish stores. All 3 developments now have several vacant lots on their premises, with Carroll Village in particular now empty except for its cinema and its apartments.</p>
 
 <p>Although the Irish cinema sector has seen its attendance decline since the GFC, in line with the rest of the economy, it has remained surprisingly resilient. Aided by the increased emphasis from the film industry on large opening weekend box office, it has seen income increase (Hughes, 2013) while attendance has fallen (McCabe, 2014), and the IMC Dundalk has been one of the few cultural amenities in Dundalk that has not closed down or been close to over the past 5 years.</p>
 
@@ -124,7 +119,7 @@ In the late 1990s the Adelphi closed, to be replaced later by commercial lots an
 <p>The next dataset required was that necessary for the network analysis. This dataset was provided by Dr. Ronan Foley of NUI Maynooth. The dataset consisted of 3 files, containing all streets and roads in Ireland, and the network nodes necessary for the calculation of travel times between points using the streets/roads file. This dataset could not be clipped down to the extent of the study area as with the previous 2 datasets, but this was not necessary as all network analysis results would later be clipped down to the extent of the study area after it had been performed.
 The previous three datasets were located and processed into a form usable for the project, but in addition to these, it was necessary to create a series of point files containing the locations of all cinema sites within the study area. These point files were created by compiling the X/Y co-ordinates for the cinema sites from Open Street Map and Google Maps in a spreadsheet. However, co-ordinates collected via these services were in WGS1984, different from the other datasets. They were converted into Irish Grid co-ordinates using an online co-ordinate converter developed for archaeology work. After this, the spreadsheet with the corrected co-ordinates and a column containing their corresponding cinema names was imported into ArcGIS using the Add X/Y Data option, and then exported as a new shapefile so that each cinema would have a unique ID. This was done 4 times in total, creating a cinema locations file for each scenario which would be run in Network Analyst.</p>
 
-<h2><a name="2dot2-checking-data-consistency"></a><em>2.2 – Checking data consistency</em></h2>
+<h2><a name="2dot2-checking-data-consistency"></a><em>2.2 - Checking data consistency</em></h2>
 
 <p>Before the datasets described in section 2.1 could be used in the network analysis, it was necessary to inspect them for consistency and interoperability. The first step was to check consistency of projections. Inspecting the data in ArcCatalog, it was revealed that several datasets had no projection set, and others had mismatched datasets. A single consistent projection was required that would be applied to all datasets: The TM65 Irish Grid projection was chosen for this purpose for 2 reasons: firstly, it was already the projection of the network data, and secondly, it was one of the projections available in the co-ordinate converter.</p>
 
@@ -132,7 +127,7 @@ The previous three datasets were located and processed into a form usable for th
 
 <p>The next step, given that files from 2 separate countries had been merged, was to ensure consistency in the attribute fields of the merged shapefiles. After inspection of both the Local Authority/District and Small Area files, the only change that needed to be made was to add the district names of the Northern areas to the COUNTYNAME field, to ensure that, if necessary, northern districts could be used alongside counties from the Republic in any selection and processing of other spatial datasets.</p>
 
-<h2><a name="2dot3-testing-network-data"></a><em>2.3 – Testing network data</em></h2>
+<h2><a name="2dot3-testing-network-data"></a><em>2.3 - Testing network data</em></h2>
 
 <p>After the data had been checked for consistency of attributes and projections, the final step was to test the accuracy of the network datasets in calculating travel time between two points. This was done by creating routes between several pairs of cinemas in ArcMap and comparing the travel times it produced to the travel times obtained for the same route in Google Maps.</p>
 
@@ -205,7 +200,7 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>With these facts in mind, and also keeping in mind that both of the proposed cinemas would be multiplexes, the following demographic measures have been chosen as indicators of a cinema’s viability: the total population of a catchment area, the proportional and total figures for people in a catchment from ages 15 to 34, and, given that the catchment areas will necessarily extend far beyond a realistic walking distance for each facility, the proportional and total figures for car ownership. Treated holistically, these figures will give an idea of the viability of a cinema, and also allow us to rank the viability of cinemas which have catchment areas with similar populations. These figures will be analysed on a scenario by scenario basis, with a final section comparing the scenarios at the end of the chapter.</p>
 
-<h2><em><a name="4dot2-scenario-1-current-situation-ie-neither-proposed-cinema-is-built"></a>4.2 - Scenario 1 – Current situation (i.e., neither proposed cinema is built)</em></h2>
+<h2><em><a name="4dot2-scenario-1-current-situation-ie-neither-proposed-cinema-is-built"></a>4.2 - Scenario 1 - Current situation (i.e., neither proposed cinema is built)</em></h2>
 
 <p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure07.png" alt="alt text" title="Figure 7: Catchments for cinemas in north-eastern Ireland, without proposed cinemas" /></p>
 
@@ -227,7 +222,7 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>Although these figures tell us little in themselves, except that all of the cinemas in the region are serving similar sized and aged populations, they give us a baseline against which we can establish the extent of the effects of the other 3 scenarios studied, which are discussed in turn below.</p>
 
-<h2><em><a name="4dot3-scenario-2-only-marshes-proposal-is-approved"></a>4.3 – Scenario 2 – Only Marshes proposal is approved</em></h2>
+<h2><em><a name="4dot3-scenario-2-only-marshes-proposal-is-approved"></a>4.3 - Scenario 2 - Only Marshes proposal is approved</em></h2>
 
 <p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure08.png" alt="alt text" title="Figure 8: Catchments for cinemas in north-eastern Ireland, with Marshes cinema" /></p>
 
@@ -248,7 +243,7 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>This table demonstrates that both the Dundalk catchment areas in this scenario quite low, with the Marshes a mere 7,000 higher than the Ashbourne catchment which, as mentioned earlier, is partial. The high carless percentage indicates that much of the catchment for these two cinemas likely lives within Dundalk's limits, but the small leg up in youth percentage that The Marshes has is unlikely to offset the major disadvantage it faces in terms of total population served.</p>
 
-<h2><em><a name="4dot4-scenario-3-only-retail-park-proposal-is-approved"></a>4.4 – Scenario 3 – Only Retail Park proposal is approved</em></h2>
+<h2><em><a name="4dot4-scenario-3-only-retail-park-proposal-is-approved"></a>4.4 - Scenario 3 - Only Retail Park proposal is approved</em></h2>
 
 <p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure09.png" alt="alt text" title="Figure 9: Catchments for cinemas in north-eastern Ireland, with Retail Park cinema" /></p>
 
@@ -269,7 +264,7 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>Most likely because of its more peripheral and southern location within Dundalk, the Retail Park site affects a much smaller decrease (about 75%) of the one affected by the Marshes on the IMC Dundalk catchment. However, its total catchment size is only about 5,000 smaller, with much of the difference being made up in the 4,500 punters it takes from the Drogheda catchment in this scenario. The difference in carless proportion is negligible, although unlike The Marshes it sees a lower carless percentage combined with a higher youth percentage. While the Retail Park's catchment population here is likely too small to sustain a cinema, it does not drag the IMC down to this level as The Marshes proposal would do.</p>
 
-<h2><em><a name="4dot5-scenario-4-both-proposals-are-approved"></a>4.5 – Scenario 4 – Both proposals are approved</em></h2>
+<h2><em><a name="4dot5-scenario-4-both-proposals-are-approved"></a>4.5 - Scenario 4 - Both proposals are approved</em></h2>
 
 <p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure10.png" alt="alt text" title="Figure 10: Catchments for cinemas in north-eastern Ireland, with both proposed cinemas" /></p>
 
@@ -293,7 +288,7 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>Interestingly, in these scenarios The Marshes sees abnormally (compared to the general figures obtained across facilities and scenarios) high levels of youth population and carlessness, likely reflecting the fact that much of its population is located within the Dundalk town itself. While the desirability of a youth-heavy population for a cinema was discussed in section 4.1, it is unlikely that the elevated levels here would be enough to sustain a cinema with such a low catchment population to begin with.</p>
 
-<h2><em><a name="4dot6-commentary-on-viability-of-proposals"></a>4.6 – Commentary on viability of proposals</em></h2>
+<h2><em><a name="4dot6-commentary-on-viability-of-proposals"></a>4.6 - Commentary on viability of proposals</em></h2>
 
 <p>Across the 3 scenarios concerning the construction of the proposed cinemas in this project, a number of patterns emerge. The first is that, quite clearly, the construction of either or both of the cinemas, while not necessarily being fatal for the IMC Dundalk, would make its survival very difficult, as its catchment population is reduced by a quarter to over a third in all scenarios. However, while this is the strongest negative impact suggested by these scenarios, the construction of the new cinemas does actually increase the total population for all Dundalk cinema catchments, with, taken separately, The Marshes bringing roughly 13,500 new individuals into the fold and the Retail Park site bringing in nearly 20,000. It is possible that if these cinemas were to be constructed and then, as discussed in further detail in section 5.2, fail, that the IMC Dundalk would benefit in the long-term from people who had started to treat Dundalk as the town in which their nearest cinema is located.</p>
 
@@ -404,3 +399,4 @@ Available at: http://adelphidundalk.com/adelphi-history.php
 <p>The Argus, 2012. Unemployment rate likely to be much higher in disadvantaged areas. The Argus, 2 December.</p>
 
 <p>The Dundalk Democrat, 2013. Harvey Norman to close. The Dundalk Democrat, 12 March, pp. 1-2.</p>
+</font>
