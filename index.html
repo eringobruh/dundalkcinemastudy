@@ -135,11 +135,28 @@ The previous three datasets were located and processed into a form usable for th
 
 <p>With the accuracy of the network dataset in calculating travel times having been ascertained, it was now possible to carry out the network analysis itself, which is detailed in chapter 3. Comparisons of travel times for the tests performed are given below.</p>
 
-<p>| Route                             | Google Maps estimate | Network Analyst estimate |
-|-----------------------------------|----------------------|--------------------------|
-| IMC Dundalk - Newry Omniplex      | 22 minutes           | 21 minutes 45 seconds    |
-| IMC Dundalk - Dundalk Retail Park | 9 minutes            | 7 minutes 50 seconds     |
-| IMC Dundalk - Drogheda Omniplex   | 31 minutes           | 28 minutes 6 seconds     |</p>
+<p><table>
+  <tr>
+    <th><br>  Route<br>  </th>
+    <th><br>  Google Maps estimate<br>  </th>
+    <th><br>  Network Analyst estimate<br>  </th>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk - Newry Omniplex<br>  </td>
+    <td><br>  22 minutes<br>  </td>
+    <td><br>  21 minutes 45 seconds<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk - Dundalk Retail Park<br>  </td>
+    <td><br>  9 minutes<br>  </td>
+    <td><br>  7 minutes 50 seconds<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk - Drogheda Omniplex<br>  </td>
+    <td><br>  31 minutes<br>  </td>
+    <td><br>  28 minutes 6 seconds<br>  </td>
+  </tr>
+</table></p>
 
 <p><strong><em><a name="table1"></a>Table 1: Comparison of travel times from Google Maps and Network Analyst</em></strong></p>
 
@@ -208,14 +225,64 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>The purpose of the first scenario was to get a picture of the current demographics and catchment area extents for cinemas in the North East region. As visible from the map above, the IMC Dundalk's catchment coincides with what one would see as Dundalk's broader commercial catchment, extending down to the centre of Louth and into Monaghan. Also of interest is the consistency in demographics for the 4 cinemas for which full data was obtained (Dundalk, Drogheda, Cavan, and Navan), as shown in the table below:</p>
 
-<p>| Cinema    |   Total pop. | Total no car |       % no car | Total 15-34 |        % 15-34 |
-|-----------|-------------:|-------------:|---------------:|------------:|---------------:|
-| Ashbourne |     46114    |      1027    |      6.2390%   |    13209    |    28.6442%    |
-| Dundalk   |    106247    |      6523    |    14.6967%    |    29942    |    28.1815%    |
-| Navan     |    124713    |      4511    |     9.3731%    |    33193    |    26.6155%    |
-| Newry     |     14834    |       469    |      7.2770%   |     3740    |    25.2124%    |
-| Cavan     |     98829    |      5055    |    11.3435%    |    26589    |     26.9040%   |
-| Drogheda  |     95592    |      5115    |    13.6128%    |    25710    |    26.8956%    |
+<p><table>
+  <tr>
+    <th><br>  Cinema<br>  </th>
+    <th><br>  Total Pop.<br>  </th>
+    <th><br>  Total No Car<br>  </th>
+    <th><br>  % No Car<br>  </th>
+    <th><br>  Total 15-34<br>  </th>
+    <th><br>  % 15-34<br>  </th>
+  </tr>
+  <tr>
+    <td><br>  Ashbourne<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  1027<br>  </td>
+    <td><br>  6.2390%<br>  </td>
+    <td><br>  13209<br>  </td>
+    <td><br>  28.6442%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Dundalk<br>  </td>
+    <td><br>  106247<br>  </td>
+    <td><br>  6523<br>  </td>
+    <td><br>  14.6967%<br>  </td>
+    <td><br>  29942<br>  </td>
+    <td><br>  28.1815%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Navan<br>  </td>
+    <td><br>  124713<br>  </td>
+    <td><br>  4511<br>  </td>
+    <td><br>  9.3731%<br>  </td>
+    <td><br>  33193<br>  </td>
+    <td><br>  26.6155%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Newry<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  469<br>  </td>
+    <td><br>  7.2770%<br>  </td>
+    <td><br>  3740<br>  </td>
+    <td><br>  25.2124%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Cavan<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  5055<br>  </td>
+    <td><br>  11.3435%<br>  </td>
+    <td><br>  26589<br>  </td>
+    <td><br>  26.9040%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Drogheda<br>  </td>
+    <td><br>  95592<br>  </td>
+    <td><br>  5115<br>  </td>
+    <td><br>  13.6128%<br>  </td>
+    <td><br>  25710<br>  </td>
+    <td><br>  26.8956%<br>  </td>
+  </tr>
+</table>
 <strong><em><a name="table2"></a>Table 2: Demographic information for catchments without proposed cinemas</em></strong></p>
 
 <p>The total catchment populations for these cinemas all lie within 35,000 of each other, a remarkably small variance given the nature of the urban and physical geographies of this region. In addition, a breakdown of the demographics of these catchments show little variation in the proportion without a car or the proportion of the population within the cinema sector's core youth market. Dundalk's status as the major town of the North East also means it is unsurprising that it has the largest catchment population of a single cinema (as mentioned earlier, the Navan figures included 2 theatres), although it is the smallest in terms of proportion of youth.</p>
@@ -230,16 +297,88 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p>In the scenario in which only the proposed Marshes cinema is built, several interesting things happen, based as much around what doesn't change as what does. The first is to note that the total catchment for the Dundalk cinemas remains essentially unchanged, while the Marshes cinema captures the small areas in the centre of the county, in Cooley, and in north Meath, which previously were within the catchment of the IMC. It also captures a small number of small areas belonging to the Newry, Navan, and Drogheda cinemas, but the majority of its catchment population comes from population taken from the IMC Dundalk, and roughly 13,000 included in catchments for the first time, as shown in the table below.</p>
 
-<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
-|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
-|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
-|    IMC Dundalk    |         66131    |          106247    |    -40116    |            4147    |    14.9366%    |          18320    |    27.7026%    |
-|    Navan          |        124472    |          124713    |      -241    |            4498    |     9.3518%    |          33123    |    26.6108%    |
-|    Newry          |         14128    |           14834    |      -706    |             449    |     7.2724%    |           3576    |    25.3114%    |
-|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
-|    Drogheda       |         95241    |           95592    |      -351    |            5129    |    13.6861%    |          25674    |    26.9569%    |
-|    The Marshes    |         53658    |               0    |    +53658    |            3247    |    14.4388%    |          15202    |    28.3313%    |
-<strong><em><a name="table3"></a>Table 3: Demographic information for catchments, with Marshes cinema</em></strong></p>
+<p><table>
+  <tr>
+    <th><br>  Cinema<br>  </th>
+    <th><br>  Total Pop.<br>  </th>
+    <th><br>  Initial Pop.<br>  </th>
+    <th><br>  Change<br>  </th>
+    <th><br>  Total No Car<br>  </th>
+    <th><br>  % No Car<br>  </th>
+    <th><br>  Total 15-34<br>  </th>
+    <th><br>  % 15-34<br>  </th>
+  </tr>
+  <tr>
+    <td><br>  Ashbourne<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  1027<br>  </td>
+    <td><br>  6.2390%<br>  </td>
+    <td><br>  13209<br>  </td>
+    <td><br>  28.6442%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk<br>  </td>
+    <td><br>  66131<br>  </td>
+    <td><br>  106247<br>  </td>
+    <td><br>  -40116<br>  </td>
+    <td><br>  4147<br>  </td>
+    <td><br>  14.9366%<br>  </td>
+    <td><br>  18320<br>  </td>
+    <td><br>  27.7026%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Navan<br>  </td>
+    <td><br>  124472<br>  </td>
+    <td><br>  124713<br>  </td>
+    <td><br>  -241<br>  </td>
+    <td><br>  4498<br>  </td>
+    <td><br>  9.3518%<br>  </td>
+    <td><br>  33123<br>  </td>
+    <td><br>  26.6108%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Newry<br>  </td>
+    <td><br>  14128<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  -706<br>  </td>
+    <td><br>  449<br>  </td>
+    <td><br>  7.2724%<br>  </td>
+    <td><br>  3576<br>  </td>
+    <td><br>  25.3114%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Cavan<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  5055<br>  </td>
+    <td><br>  11.3435%<br>  </td>
+    <td><br>  26589<br>  </td>
+    <td><br>  26.9040%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Drogheda<br>  </td>
+    <td><br>  95241<br>  </td>
+    <td><br>  95592<br>  </td>
+    <td><br>  -351<br>  </td>
+    <td><br>  5129<br>  </td>
+    <td><br>  13.6861%<br>  </td>
+    <td><br>  25674<br>  </td>
+    <td><br>  26.9569%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  The Marshes<br>  </td>
+    <td><br>  53658<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  +53658<br>  </td>
+    <td><br>  3247<br>  </td>
+    <td><br>  14.4388%<br>  </td>
+    <td><br>  15202<br>  </td>
+    <td><br>  28.3313%<br>  </td>
+  </tr>
+</table><strong><em><a name="table3"></a>Table 3: Demographic information for catchments, with Marshes cinema</em></strong></p>
 
 <p>This table demonstrates that both the Dundalk catchment areas in this scenario quite low, with the Marshes a mere 7,000 higher than the Ashbourne catchment which, as mentioned earlier, is partial. The high carless percentage indicates that much of the catchment for these two cinemas likely lives within Dundalk's limits, but the small leg up in youth percentage that The Marshes has is unlikely to offset the major disadvantage it faces in terms of total population served.</p>
 
@@ -249,16 +388,88 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p><strong><em><a name="figure09"></a>Figure 9: Catchments for cinemas in north-eastern Ireland, with Retail Park cinema</em></strong></p>
 
-<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
-|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
-|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
-|    IMC Dundalk    |         75736    |          106247    |    -30511    |            4704    |    14.7143%    |          21026    |    27.7622%    |
-|    Navan          |        123885    |          124713    |      -828    |            4467    |     9.3518%    |          32977    |    26.6190%    |
-|    Newry          |         14834    |           14834    |         0    |             469    |     7.2770%    |           3740    |    25.2124%    |
-|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
-|    Drogheda       |         90998    |           95592    |     -4594    |            4814    |    13.5229%    |          24418    |    26.8336%    |
-|    Retail Park    |         49820    |               0    |    +49820    |            2728    |    13.4623%    |          14275    |    28.6532%    |
-<strong><em><a name="table4"></a>Table 4: Demographic information for catchments, with Retail Park cinema</em></strong></p>
+<p><table>
+  <tr>
+    <th><br>  Cinema<br>  </th>
+    <th><br>  Total Pop.<br>  </th>
+    <th><br>  Initial Pop.<br>  </th>
+    <th><br>  Change<br>  </th>
+    <th><br>  Total No Car<br>  </th>
+    <th><br>  % No Car<br>  </th>
+    <th><br>  Total 15-34<br>  </th>
+    <th><br>  % 15-34<br>  </th>
+  </tr>
+  <tr>
+    <td><br>  Ashbourne<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  1027<br>  </td>
+    <td><br>  6.2390%<br>  </td>
+    <td><br>  13209<br>  </td>
+    <td><br>  28.6442%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk<br>  </td>
+    <td><br>  75736<br>  </td>
+    <td><br>  106247<br>  </td>
+    <td><br>  -30511<br>  </td>
+    <td><br>  4704<br>  </td>
+    <td><br>  14.7143%<br>  </td>
+    <td><br>  21026<br>  </td>
+    <td><br>  27.7622%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Navan<br>  </td>
+    <td><br>  123885<br>  </td>
+    <td><br>  124713<br>  </td>
+    <td><br>  -828<br>  </td>
+    <td><br>  4467<br>  </td>
+    <td><br>  9.3518%<br>  </td>
+    <td><br>  32977<br>  </td>
+    <td><br>  26.6190%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Newry<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  469<br>  </td>
+    <td><br>  7.2770%<br>  </td>
+    <td><br>  3740<br>  </td>
+    <td><br>  25.2124%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Cavan<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  5055<br>  </td>
+    <td><br>  11.3435%<br>  </td>
+    <td><br>  26589<br>  </td>
+    <td><br>  26.9040%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Drogheda<br>  </td>
+    <td><br>  90998<br>  </td>
+    <td><br>  95592<br>  </td>
+    <td><br>  -4594<br>  </td>
+    <td><br>  4814<br>  </td>
+    <td><br>  13.5229%<br>  </td>
+    <td><br>  24418<br>  </td>
+    <td><br>  26.8336%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Retail Park<br>  </td>
+    <td><br>  49820<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  +49820<br>  </td>
+    <td><br>  2728<br>  </td>
+    <td><br>  13.4623%<br>  </td>
+    <td><br>  14275<br>  </td>
+    <td><br>  28.6532%<br>  </td>
+  </tr>
+</table><strong><em><a name="table4"></a>Table 4: Demographic information for catchments, with Retail Park cinema</em></strong></p>
 
 <p>In the scenario in which only the Retail Park cinema is constructed, a similar reshuffling of small areas across catchments is witnessed to the south of Dundalk, while the small areas on the Cooley Peninsula are unaffected. As with the Marshes cinema, the new cinema sees a marginally higher proportion of youth in its catchment to the IMC Dundalk, and in fact would have the highest proportion of youth in its catchment of any of the 7 cinemas analyzed in this scenario.</p>
 
@@ -270,17 +481,98 @@ The analysis was then run with these settings once for each of the 4 cinema poin
 
 <p><strong><em><a name="figure10"></a>Figure 10: Catchments for cinemas in north-eastern Ireland, with both proposed cinemas</em></strong></p>
 
-<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
-|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
-|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
-|    IMC Dundalk    |         65062    |          106247    |    -41185    |            4120    |    15.0860%    |          18006    |    27.6751%    |
-|    Navan          |        123885    |          124713    |      -828    |            4467    |     9.3518%    |          32977    |    26.6190%    |
-|    Newry          |         14834    |           14834    |         0    |             469    |     7.2770%    |           3740    |    25.2124%    |
-|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
-|    Drogheda       |         90998    |           95592    |     -4594    |            4814    |    13.5229%    |          24418    |    26.8336%    |
-|    Retail Park    |         47923    |           49820    |     -1897    |            2447    |    12.7827%    |          13622    |    28.4248%    |
-|    The Marshes    |         19490    |           53658    |    -34168    |            1523    |    17.4636%    |           5825    |    29.8871%    |
-<strong><em><a name="table5"></a>Table 5: Demographic information for catchments, with both proposed cinemas</em></strong></p>
+<p><table>
+  <tr>
+    <th><br>  Cinema<br>  </th>
+    <th><br>  Total Pop.<br>  </th>
+    <th><br>  Initial Pop.<br>  </th>
+    <th><br>  Change<br>  </th>
+    <th><br>  Total No Car<br>  </th>
+    <th><br>  % No Car<br>  </th>
+    <th><br>  Total 15-34<br>  </th>
+    <th><br>  % 15-34<br>  </th>
+  </tr>
+  <tr>
+    <td><br>  Ashbourne<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  46114<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  1027<br>  </td>
+    <td><br>  6.2390%<br>  </td>
+    <td><br>  13209<br>  </td>
+    <td><br>  28.6442%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  IMC Dundalk<br>  </td>
+    <td><br>  65062<br>  </td>
+    <td><br>  106247<br>  </td>
+    <td><br>  -41185<br>  </td>
+    <td><br>  4120<br>  </td>
+    <td><br>  15.086%<br>  </td>
+    <td><br>  18006<br>  </td>
+    <td><br>  27.6751%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Navan<br>  </td>
+    <td><br>  123885<br>  </td>
+    <td><br>  124713<br>  </td>
+    <td><br>  -828<br>  </td>
+    <td><br>  4467<br>  </td>
+    <td><br>  9.3518%<br>  </td>
+    <td><br>  32977<br>  </td>
+    <td><br>  26.6190%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Newry<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  14834<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  469<br>  </td>
+    <td><br>  7.2770%<br>  </td>
+    <td><br>  3740<br>  </td>
+    <td><br>  25.2124%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Cavan<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  98829<br>  </td>
+    <td><br>  0<br>  </td>
+    <td><br>  5055<br>  </td>
+    <td><br>  11.3435%<br>  </td>
+    <td><br>  26589<br>  </td>
+    <td><br>  26.9040%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Drogheda<br>  </td>
+    <td><br>  90998<br>  </td>
+    <td><br>  95592<br>  </td>
+    <td><br>  -4594<br>  </td>
+    <td><br>  4814<br>  </td>
+    <td><br>  13.5229%<br>  </td>
+    <td><br>  24418<br>  </td>
+    <td><br>  26.8336%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  Retail Park<br>  </td>
+    <td><br>  47923<br>  </td>
+    <td><br>  49820<br>  </td>
+    <td><br>  -1897<br>  </td>
+    <td><br>  2447<br>  </td>
+    <td><br>  12.7827%<br>  </td>
+    <td><br>  13622<br>  </td>
+    <td><br>  28.4248%<br>  </td>
+  </tr>
+  <tr>
+    <td><br>  The Marshes<br>  </td>
+    <td><br>  19490<br>  </td>
+    <td><br>  53658<br>  </td>
+    <td><br>  -34168<br>  </td>
+    <td><br>  1523<br>  </td>
+    <td><br>  17.4636%<br>  </td>
+    <td><br>  5825<br>  </td>
+    <td><br>  29.8871%<br>  </td>
+  </tr>
+</table><strong><em><a name="table5"></a>Table 5: Demographic information for catchments, with both proposed cinemas</em></strong></p>
 
 <p>In a scenario in which both cinemas are approved, the results are quite different and yet quite similar to the other scenarios tested. The IMC Dundalk's catchment population is near identical to the one generated in The Marshes scenario, and The Retail Park again obtains roughly 4,500 individuals from the Drogheda catchment, while only being 2,000 smaller than in the scenario where only it is approved.</p>
 
