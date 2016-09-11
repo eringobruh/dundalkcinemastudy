@@ -1,0 +1,400 @@
+<h1><strong>Contents</strong></h1>
+
+<h4><strong><a href="#list-of-figures">List of figures</a></strong></h4>
+
+<h4><strong><a href="#list-of-tables">List of tables</a></strong></h4>
+
+<h4><strong><a href="#1-introduction">1 - Introduction</a></strong></h4>
+
+<h5><strong><a href="#1dot1-historical-background-and-context">1.1 - Historical Background and Context</a></strong></h5>
+
+<h4><strong><a href="#2-spatial-data">2 - Spatial Data</a></strong></h4>
+
+<h5><strong><a href="#2dot1-data-source">2.1 - Data source</a></strong></h5>
+
+<h5><strong><a href="#2dot2-checking-data-consistency">2.2 – Checking data consistency</a></strong></h5>
+
+<h5><strong><a href="#2dot3-testing-network-data">2.3 – Testing network data</a></strong></h5>
+
+<h4><strong><a href="#3-network-analysis">3 - Network Analysis</a></strong></h4>
+
+<h5><strong><a href="#3dot1-designing-and-executing-network-analysis">3.1 - Designing and executing the network analysis</a></strong></h5>
+
+<h5><strong><a href="#3dot2-exporting-and-using-the-service-area-layer">3.2 - Exporting and using the Service Area layer</a></strong></h5>
+
+<h4><strong><a href="#4-results-and-analysis">4 - Results and Analysis</a></strong></h4>
+
+<h5><strong><a href="#4dot1-the-irish-cinema-sector">4.1 - The Irish cinema sector</a></strong></h5>
+
+<h5><strong><a href="#4dot2-scenario-1">4.2 - Scenario 1 – Current situation (i.e., neither proposed cinema is built)</a></strong></h5>
+
+<h5><strong><a href="#4dot3-scenario-2">4.3 – Scenario 2 – Only Marshes proposal is approved</a></strong></h5>
+
+<h5><strong><a href="#4dot5-scenario-4">4.4 – Scenario 3 – Only Retail Park proposal is approved</a></strong></h5>
+
+<h5><strong><a href="#4dot5-scenario-4">4.5 – Scenario 4 – Both proposals are approved</a></strong></h5>
+
+<h5><strong><a href="#4dot6-commentary-on-viability-of-proposals">4.6 – Commentary on viability of proposals</a></strong></h5>
+
+<h4><strong><a href="#5-conclusions-and-critical-commentary">5 - Conclusions and Critical Commentary</a></strong></h4>
+
+<h5><strong><a href="#5dot1-commentary-on-project-shortcomings">5.1 - Commentary on project shortcomings</a></strong></h5>
+
+<h5><strong><a href="#5dot2-recommendations">5.2 - Recommendations</a></strong></h5>
+
+<h4><strong><a href="#bibliography">Bibliography</a></strong></h4>
+
+<h2><em><a name="list-of-figures"></a>List of figures</em></h2>
+
+<p><a href="#figure01">Figure 1: Dundalk-Newry route in Network Analyst</a></p>
+
+<p><a href="#figure02">Figure 2: Dundalk-Newry route in Google Maps</a></p>
+
+<p><a href="#figure03">Figure 3: IMC-Retail Park route in Network Analyst</a></p>
+
+<p><a href="#figure04">Figure 4: IMC-Retail Park route in Google Maps</a></p>
+
+<p><a href="#figure05">Figure 5: Dundalk-Drogheda route in Network Analyst</a></p>
+
+<p><a href="#figure06">Figure 6: Dundalk-Drogheda route in Google Maps</a></p>
+
+<p><a href="#figure07">Figure 7: Catchments for cinemas in northeastern Ireland, without proposed cinemas</a></p>
+
+<p><a href="#figure08">Figure 8: Catchments for cinemas in northeastern Ireland, with Marshes cinema</a></p>
+
+<p><a href="#figure09">Figure 9: Catchments for cinemas in northeastern Ireland, with Retail Park cinema</a></p>
+
+<p><a href="#figure10">Figure 10: Catchments for cinemas in northeastern Ireland, with both proposed cinemas  18</a></p>
+
+<h2><em><a name="list-of-tables"></a>List of tables</em></h2>
+
+<p><a href="#table1">Table 1: Comparison of travel times from Network Analyst and Google Maps</a></p>
+
+<p><a href="#table2">Table 2: Demographic information for catchments without proposed cinemas</a></p>
+
+<p><a href="#table3">Table 3: Demographic information for catchments, with Marshes cinema</a></p>
+
+<p><a href="#table4">Table 4: Demographic information for catchments, with Retail Park cinema</a></p>
+
+<p><a href="#table5">Table 5: Demographic information for catchments, with both proposed cinemas</a></p>
+
+<h1><a name="executive-summary"></a><strong>Executive Summary</strong></h1>
+
+<p>This report describes the use of network and geodemographic analysis in conjunction with GIS to test the viability of two cinema proposals recently submitted for planning permission to An Bord Pleanála. This involves the establishment of historical context for the proposals, as well a commentary on the construction of the necessary datasets and their use in ArcMap's Network Analyst tool.</p>
+
+<p>The body of the report covers both the sections mentioned above and another section, dealing with the demographic information obtained through the network analysis. Situating the demographic figures obtained alongside a commentary on the state of the film industry and cinema industry both nationally and globally, the report looks at the effects the construction of either or both proposed cinemas will have on existing cinemas in North East Ireland, accounting for both the total population served by each cinema in each scenario, and other census and demographical information deemed relevant to the project from the study of literature on cinema attendance in Ireland. After a section studying the trends suggested by variances between the scenarios, recommendations are made as to the viability of the proposals as currently formulated, and it is found that neither cinema site would likely be commercially viable if constructed.</p>
+
+<p>The report closes with a commentary on possible sources of error and shortcomings in the datasets utilized. After this, it returns to the question of the viability of the proposed cinema sites, finding that the construction of the proposed cinema at The Marshes Shopping Centre should be blocked both because it would be unviable as per the demographic information generated by the network analysis, and because the further centralization of commercial and cultural functions in the town would have undesirable effects on its economic life.</p>
+
+<p>By contrast, the report recommends that, if possible, the Retail Park site be approved on the condition it change its operating model from that of a Multiplex cinema, deemed unviable and undesirable for the town because of the demographic information and the lack of demonstrable economic benefit in the long-term, to one of the alternate models explored in the Arts Council report which is referred to repeatedly in this study. However, the report concedes that, given the advanced stage at which the Retail Park proposal finds itself currently, it is unlikely its investors would allow for such a radical change to its operating model, and, as such, it is recommended that inducements be offered to encourage such a change, although, again, it is unlikely the funds available for such a gesture are available.</p>
+
+<h1><a name="1-introduction"></a><strong>1 - Introduction</strong></h1>
+
+<h2><a name="1dot1-historical-background-and-context"></a><em>1.1 - Historical background and context</em></h2>
+
+<p>Dundalk is a town of roughly 38,000 people located in County Louth in the North East of Ireland. It is the largest town on the Republic’s side of the Irish border, and acts as a commercial centre for the surrounding areas, competing with Newry to the north and Drogheda to the south in this regard (IDA Ireland, 2014).</p>
+
+<p>In keeping with its status as a commercial hub for the surrounding area, Dundalk also acts a cultural centre, containing Dundalk Stadium, Oriel Park, and a proposed National Velodrome (Stokes, 2014) for sports, as well as a theatre and music venues for the performing arts. In addition to this, Dundalk has also had a cinema (cinemas being identified by the Arts Council as a “key local [cultural amenity]”  (Inglis &amp; Todd, 2004)) continuously since the opening of its first, the Adelphi, in 1947. During this period, cinema attendance reached its historic peak, and while there were other means for people in Dundalk’s surrounding areas to see films (e.g. travelling cinemas), the Adelphi captured much of this audience. Since then, Dundalk has assumed an increased centrality to the cultural and economic life of the North East, and between its opening and closing, the Adelphi became both the main cinema for the region and one of its most important concert venues (The Adelphi Centre, 2011).
+In the late 1990s the Adelphi closed, to be replaced later by commercial lots and a block of apartments. The cinema was simultaneously replaced by a new branch of the IMC chain, constructed and opened as part the Superquinn-led Carroll Village development in 1999. Carroll Village was one of several large-scale developments undertaken in Dundalk during the Celtic Tiger, and Dundalk in this period was considered a key "Gateway" town in Ireland’s National Spatial Strategy laid out in 2002 (Department of Environment, Community, and Local Government, 2002).</p>
+
+<p>Two developments from this period important for both Dundalk as a whole and this project were completed during this period: the Dundalk Retail Park, which opened in 2003 with Harvey Norman as its marquee client, and The Marshes Shopping Centre, which opened in 2005. These 2 developments, along with Carroll Village, significantly reshaped the commercial and social life of the town after they were opened, drawing foot traffic away from Clanbrassil Street, the town’s shopping district, and towards previously peripheral parts of the town.</p>
+
+<p>As much as these developments have reshaped the town, however, they have still faced significant problems, along with Dundalk as a whole. Over the last half-decade in the wake of the Global Financial Crisis of 2008, Dundalk has faced serious economic hardship, with Louth as a county having one of the nation’s highest unemployment rates (The Argus, 2012). All 3 of the developments mentioned have lost marquee clients since that period – Harvey Norman and Superquinn have withdrawn from Dundalk totally (Campbell, 2012) (The Dundalk Democrat, 2013), while HMV, one of The Marshes’ most successful outlets, recently went into receivership and closed all its Irish stores. All 3 developments now have several vacant lots on their premises, with Carroll Village in particular now empty except for its cinema and its apartments.</p>
+
+<p>Although the Irish cinema sector has seen its attendance decline since the GFC, in line with the rest of the economy, it has remained surprisingly resilient. Aided by the increased emphasis from the film industry on large opening weekend box office, it has seen income increase (Hughes, 2013) while attendance has fallen (McCabe, 2014), and the IMC Dundalk has been one of the few cultural amenities in Dundalk that has not closed down or been close to over the past 5 years.</p>
+
+<p>Given the declining return on capital from other commercial and cultural developments in recent history, and the success of the IMC Dundalk compared to a wide variety of other commercial endeavours in Dundalk, it is not surprising then to see that repeated attempts have been made by rival developers to develop a new, second cinema in the town. The first attempt was made by the Movies @ chain, currently operating 2 cinemas in Dublin, to build a new cinema on the outskirts of Dundalk at Finnabair estate (Smyth, 2013), but this development failed to secure planning permission and was cancelled. In late 2013, two additional applications for planning permission for new cinemas were made. The first was made by the operators of the Dundalk Retail Park for a 7-screen multiplex to be located in the vacant Harvey Norman lots (Smyth, 2013), and the second was made by the operators of the Marshes shopping centre, to be built partially on an existing car park on their site (Smyth, 2014).</p>
+
+<p>The planning process for both of these sites has been highly contentious, with all 3 cinema operators (the 2 proposed and the IMC Dundalk) challenging each other on the viability and desirability of the competing proposals. With the final decisions on the Marshes site soon to be handed down by An Bord Pleanála (Smyth, 2013), and the Retail Park site having received approval in late April, this project aims to make an intervention in this process, using GIS methods and geodemographic analysis to ascertain the viability of the 2 proposed cinemas, and the effect they would have on the existing cinemas in the region. This will entail the use of network analysis to estimate the populations within the service area of each (existing and proposed) cinema in a variety of scenarios, as well a commentary on how the figures obtained by these methods appear in light of prevailing trends within the film and cinema industries both globally and nationally.</p>
+
+<h1><a name="2-spatial-data"></a><strong>2: Spatial data</strong></h1>
+
+<h2><a name="2dot1-data-source"></a><em>2.1 - Data source</em></h2>
+
+<p>The first step in designing the project outlined in chapter 1 was to determine the extent of the study area. Although all 3 cinemas that were to be the focus of the study were located in Dundalk, their catchments, as discussed in chapter 1, would necessarily extend far beyond the limits of the town. As such, to obtain accurate figures, it would be necessary to include neighbouring counties in the analysis, and all cinemas in these regions, so as to ascertain good estimates for the limits of each Dundalk cinema’s catchment. To this end, 9 cinemas were selected, from Newry, Armagh, Meath, Cavan, Monaghan, and Louth. The creation of a shapefile containing the locations of these cinemas is discussed later in the chapter.</p>
+
+<p>With the study area determined, the next step was to draw up a list of required spatial data. The first requirement were shapefiles containing every small area in both the North and the Republic, which would then be clipped down to the extent of the study area. For the Republic, the Small Area shapefile was taken from files used for a previous GIS project. For the North, the file was obtained from the NISRA website.  These files contained every small area in the country, and were clipped down to the study area (covering Louth, Cavan, Monaghan, Meath, and the Armagh and Newry &amp; Mourne districts) using a merged file consisting of Local Authority boundaries for the Republic and a Regional Districts boundary shapefile for the North. The relevant counties and districts were selected from both of these files, exported as new shapefiles and then merged. They were then used to clip a merged shapefile containing both the Republic and Northern SA shapefiles. Although the final shapefile contained small areas from both sides of the border, only the Republic’s small areas contained census data, a shortcoming which is discussed in chapter 5.</p>
+
+<p>The next dataset required was that necessary for the network analysis. This dataset was provided by Dr. Ronan Foley of NUI Maynooth. The dataset consisted of 3 files, containing all streets and roads in Ireland, and the network nodes necessary for the calculation of travel times between points using the streets/roads file. This dataset could not be clipped down to the extent of the study area as with the previous 2 datasets, but this was not necessary as all network analysis results would later be clipped down to the extent of the study area after it had been performed.
+The previous three datasets were located and processed into a form usable for the project, but in addition to these, it was necessary to create a series of point files containing the locations of all cinema sites within the study area. These point files were created by compiling the X/Y co-ordinates for the cinema sites from Open Street Map and Google Maps in a spreadsheet. However, co-ordinates collected via these services were in WGS1984, different from the other datasets. They were converted into Irish Grid co-ordinates using an online co-ordinate converter developed for archaeology work. After this, the spreadsheet with the corrected co-ordinates and a column containing their corresponding cinema names was imported into ArcGIS using the Add X/Y Data option, and then exported as a new shapefile so that each cinema would have a unique ID. This was done 4 times in total, creating a cinema locations file for each scenario which would be run in Network Analyst.</p>
+
+<h2><a name="2dot2-checking-data-consistency"></a><em>2.2 – Checking data consistency</em></h2>
+
+<p>Before the datasets described in section 2.1 could be used in the network analysis, it was necessary to inspect them for consistency and interoperability. The first step was to check consistency of projections. Inspecting the data in ArcCatalog, it was revealed that several datasets had no projection set, and others had mismatched datasets. A single consistent projection was required that would be applied to all datasets: The TM65 Irish Grid projection was chosen for this purpose for 2 reasons: firstly, it was already the projection of the network data, and secondly, it was one of the projections available in the co-ordinate converter.</p>
+
+<p>The files were all re-projected to TM65 using ArcMap. Firstly, the network datasets were added and the layer projection was set to Irish Grid. Then, in turn, each shapefile with a different projection was added. ArcMap detected non-matching projections and re-projected the shapefiles to Irish Grid after a user prompt. The cinema co-ordinates, as mentioned earlier, were imported directly into ArcMap as an Irish Grid dataset, as they had been converted from their own projection earlier.</p>
+
+<p>The next step, given that files from 2 separate countries had been merged, was to ensure consistency in the attribute fields of the merged shapefiles. After inspection of both the Local Authority/District and Small Area files, the only change that needed to be made was to add the district names of the Northern areas to the COUNTYNAME field, to ensure that, if necessary, northern districts could be used alongside counties from the Republic in any selection and processing of other spatial datasets.</p>
+
+<h2><a name="2dot3-testing-network-data"></a><em>2.3 – Testing network data</em></h2>
+
+<p>After the data had been checked for consistency of attributes and projections, the final step was to test the accuracy of the network datasets in calculating travel time between two points. This was done by creating routes between several pairs of cinemas in ArcMap and comparing the travel times it produced to the travel times obtained for the same route in Google Maps.</p>
+
+<p>As seen in the screenshots below, three of these tests were performed. The IMC Dundalk was used as the base for all 3 tests, with the Newry and Drogheda Omniplexes and the Dundalk Retail Park being used for the other tests. In all 3 cases the network analyst route times were very close to the route times by car produced by Google Maps, with all variances being within 10%, an acceptable threshold given the manner in which network analyst calculates routes. The biggest total error was 3 minutes on the Drogheda route, which can be attributed to Google Maps not having the Drogheda Omniplex in its address locator, with a nearby site being selected instead.</p>
+
+<p>With the accuracy of the network dataset in calculating travel times having been ascertained, it was now possible to carry out the network analysis itself, which is detailed in chapter 3. Comparisons of travel times for the tests performed are given below.</p>
+
+<p>| Route                             | Google Maps estimate | Network Analyst estimate |
+|-----------------------------------|----------------------|--------------------------|
+| IMC Dundalk - Newry Omniplex      | 22 minutes           | 21 minutes 45 seconds    |
+| IMC Dundalk - Dundalk Retail Park | 9 minutes            | 7 minutes 50 seconds     |
+| IMC Dundalk - Drogheda Omniplex   | 31 minutes           | 28 minutes 6 seconds     |</p>
+
+<p><strong><em><a name="table1"></a>Table 1: Comparison of travel times from Google Maps and Network Analyst</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure01.png" alt="alt text" title="Figure 1: Dundalk-Newry route in Network Analyst" /></p>
+
+<p><strong><em><a name="figure01"></a>Figure 1: Dundalk-Newry route in Network Analyst</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure02.png" alt="alt text" title="Figure 2: Dundalk-Newry route in Google Maps" /></p>
+
+<p><strong><em><a name="figure02"></a>Figure 2: Dundalk-Newry route in Google Maps</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure03.png" alt="alt text" title="Figure 3: IMC-Retail Park route in Network Analyst" /></p>
+
+<p><strong><em><a name="figure03"></a>Figure 3: IMC-Retail Park route in Network Analyst</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure04.png" alt="alt text" title="Figure 4: IMC-Retail Park route in Google Maps" /></p>
+
+<p><strong><em><a name="figure04"></a>Figure 4: IMC-Retail Park route in Google Maps</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure05.png" alt="alt text" title="Figure 5: Dundalk-Drogheda route in Network Analyst" /></p>
+
+<p><strong><em><a name="figure05"></a>Figure 5: Dundalk-Drogheda route in Network Analyst</em></strong></p>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure06.png" alt="alt text" title="Figure 6: Dundalk-Drogheda route in Google Maps" /></p>
+
+<p><strong><em><a name="figure06"></a>Figure 6: Dundalk-Drogheda route in Google Maps</em></strong></p>
+
+<h1><strong><a name="3-network-analysis"></a>3: Network Analysis</strong></h1>
+
+<h2><em><a name="3dot1-designing-and-executing-network-analysis"></a>3.1 - Designing and executing the network analysis</em></h2>
+
+<p>The aim of this project was to determine the viability of cinemas in Dundalk based on the populations within the small areas that would be closest to them, as well as how the size of these populations would be affected for cinemas in the area with the construction of either or both of the proposed cinemas discussed in chapter 1. With this in mind, a Service Area analysis was chosen as the method. This would generate polygons outlining the extent of the country that lay within a certain travel time of each cinema. These polygons could then be used to clip the Small Areas shapefile to obtain a catchment for each cinema which would contain an estimate of the population it would serve.</p>
+
+<p>This analysis was set up using the New Service Area option from the Network Analyst toolbar. The Streets<em>2</em>ND shapefile was re-created as a service area layer, and the cinemas point files were added to the facilities menu using the Load Locations option. This was done 4 separate times, one for each different cinema shapefile (representing a different outcome of An Bord Pleanála’s deliberation on the proposals for new cinemas in Dundalk), all using the same settings.</p>
+
+<p>The settings were to be identical in each analysis to ensure consistency in the service areas generated in every scenario. Firstly, the polygons were set up so that no polygons would overlap, ensuring each small area would only count once, towards a single cinema, in each scenario, ensuring no double-counting of populations in the later analysis of geodemographics. The polygons were also set up to be produced as rings, a precaution taken given the proximity of the 3 cinema sites within Dundalk, as well as the proximity of the time break values at the lower end of the analysis.</p>
+
+<p>The time break values were set up, in minutes, as: 3, 5, 10, 15, 20, 25, 30, 45, and 60, ensuring that, firstly, on the lower end, within Dundalk the analysis would assign small areas to each cinema as accurately as possible, and that, secondly, on the higher end, as many small areas as possible would be included in a catchment, especially in remote areas of Cavan and Monaghan. This was done because of the commentary in the Arts Council’s review of the Irish and Welsh cinema industry, identifying the cinema as a key local amenity, and one that people would travel significant distances to use, depending on the film.
+The analysis was then run with these settings once for each of the 4 cinema point files, generating distinct polygons for each facility and time break in each scenario, without any overlap between facilities or time breaks for an individual cinema.</p>
+
+<h2><em><a name="3dot2-exporting-and-using-the-service-area-layer"></a>3.2 - Exporting and using the Service Area layer</em></h2>
+
+<p>On initial inspection, the network analysis polygons revealed some of interest about the service area of each cinema, but contained little information beyond this. To further the analysis of the catchment areas for North Eastern cinemas, it was necessary to export the network analysis polygons outside of Network Analyst.</p>
+
+<p>This was done by selecting each cinema site’s 9 polygons and exporting them as a single shapefile. This was done for every cinema for all 4 scenarios, with the export settings defined to ensure it would be clear on later use which cinema and which scenario each shapefile belonged to. Because of their proximity and the fact that both cinemas operated under different models (one was a private multiplex and the other was a public art house cinema), the two Navan cinemas had their polygons combined as a single service area in all 4 scenarios.</p>
+
+<p>These agglomerated service area polygons were then used separately from the original network analysis to clip the Small Area layer discussed in chapter 2. 4 sets of small area clips were created, one for each scenario as before, with a total of 27 clips being created in total, with names and folder locations indicating which scenario and cinema they belonged to. These clipped small area files, all of which lay adjacent to each other when loaded simultaneously in ArcMap, could then be used to obtain detailed demographical and statistical information about the service area of each cinema. The results obtained from these files, and the maps they were used to produce, are discussed in more detail in the next chapter.</p>
+
+<h1><strong><a name="4-results-and-analysis"></a>4: Results and Analysis</strong></h1>
+
+<h2><em><a name="4dot1-the-irish-cinema-sector"></a>4.1 - The Irish cinema sector</em></h2>
+
+<p>The small area clips whose production was detailed in chapter 3 give detailed information on the demographics of the catchment area for each cinema. While this allows for a determination of viability based on total population, a more detailed analysis of demographics and trends in film attendance is necessary to gain a fuller picture of the viability of Dundalk’s proposed new cinemas. Existing literature, in the form of industry reports and media articles, was utilized to identify key demographics for cinema attendance, as well as external factors influencing the appeal of a cinema as a capital investment.</p>
+
+<p>The first trend to note is two-fold: the increased importance of international box-office to Hollywood films, and the increasing share of total revenue major Hollywood films take in non-American countries. While in the past foreign territories were not important for the profitability of “blockbuster” films, nowadays these territories account for nearly 70% of their income (Brook, 2013). The increasing reliance on foreign revenues, along with the trend towards multiplex cinemas, also means that smaller films are crowded out of the cinema marketplace. While this trend has also intensified over the intervening decade, a report using data from 2002 showed that the top 20 films from that year (representing roughly 5% of all releases in the UK &amp; Ireland) accounted for over 60% of box office revenue (Inglis &amp; Todd, 2004). This increasing monopolization of revenues has a two-fold effect on Irish cinemas, visible in the specifics of the 2 proposals under study: firstly, the revenue splits on the early weekends of major blockbusters, strongly favouring the studios(Anders, 2011), requires the cinemas to increase concession sales and show times to ensure profitability. Secondly, it encourages the homogenization of cinemas across the country, emphasizing multiplex cinemas, with large concession areas and several screens, capable of showing all major films several times a day, as the most profitable model for a prospective investor (Biskind, 2005). While the increased screens and concessions do make such cinemas more viable, the space required, and the near total overlap in films exhibited, places strict limits on how many cinemas an area such as Dundalk could handle, even if, as in the case of the IMC and Retail Park cinemas, the sites are at opposite ends of the urban area.</p>
+
+<p>The second area of trends to be considered are those of attendance. Although many more films globally now break $1b gross box office, film attendance in real terms has been declining for several years (Lieberman, 2013). In addition, the increased share of audience taken by blockbuster films means that periods without such films, or periods in which such films fail, are especially difficult for cinemas (Irish Film Board, 2009) (McCabe, 2014), making them, as a sector, far more vulnerable to cyclical volatility. This decrease in attendance has been attributed to a number of causes, primarily competition from alternative audiovisual entertainment and services, especially new video streaming services such as Netflix (Kleinman, 2013). This has seen an accompanying counter-trend, where the youth market occupies a less important place in the total picture of cinema attendance (Cox, 2012). However, this trend, even if it persists, is still in its early stages, and given the dominance blockbuster films play for exhibitors in Ireland, the youth market is essential to any cinema in Ireland that wishes to be viable in the short-term. The emphasis on youth is having a negative impact on Irish cinema attendance in the short-term (given the high emigration figures among the young population Ireland is currently experiencing as well as their high unemployment (McCabe, 2014)) but cinemas in the North East are mitigating this by holding promotions targeted at the young and unemployed (IMC Dundalk, 2013).</p>
+
+<p>With these facts in mind, and also keeping in mind that both of the proposed cinemas would be multiplexes, the following demographic measures have been chosen as indicators of a cinema’s viability: the total population of a catchment area, the proportional and total figures for people in a catchment from ages 15 to 34, and, given that the catchment areas will necessarily extend far beyond a realistic walking distance for each facility, the proportional and total figures for car ownership. Treated holistically, these figures will give an idea of the viability of a cinema, and also allow us to rank the viability of cinemas which have catchment areas with similar populations. These figures will be analysed on a scenario by scenario basis, with a final section comparing the scenarios at the end of the chapter.</p>
+
+<h2><em><a name="4dot2-scenario-1-current-situation-ie-neither-proposed-cinema-is-built"></a>4.2 - Scenario 1 – Current situation (i.e., neither proposed cinema is built)</em></h2>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure07.png" alt="alt text" title="Figure 7: Catchments for cinemas in north-eastern Ireland, without proposed cinemas" /></p>
+
+<p><strong><em><a name="figure07"></a>Figure 7: Catchments for cinemas in north-eastern Ireland, without proposed cinemas</em></strong></p>
+
+<p>The purpose of the first scenario was to get a picture of the current demographics and catchment area extents for cinemas in the North East region. As visible from the map above, the IMC Dundalk's catchment coincides with what one would see as Dundalk's broader commercial catchment, extending down to the centre of Louth and into Monaghan. Also of interest is the consistency in demographics for the 4 cinemas for which full data was obtained (Dundalk, Drogheda, Cavan, and Navan), as shown in the table below:</p>
+
+<p>| Cinema    |   Total pop. | Total no car |       % no car | Total 15-34 |        % 15-34 |
+|-----------|-------------:|-------------:|---------------:|------------:|---------------:|
+| Ashbourne |     46114    |      1027    |      6.2390%   |    13209    |    28.6442%    |
+| Dundalk   |    106247    |      6523    |    14.6967%    |    29942    |    28.1815%    |
+| Navan     |    124713    |      4511    |     9.3731%    |    33193    |    26.6155%    |
+| Newry     |     14834    |       469    |      7.2770%   |     3740    |    25.2124%    |
+| Cavan     |     98829    |      5055    |    11.3435%    |    26589    |     26.9040%   |
+| Drogheda  |     95592    |      5115    |    13.6128%    |    25710    |    26.8956%    |
+<strong><em><a name="table2"></a>Table 2: Demographic information for catchments without proposed cinemas</em></strong></p>
+
+<p>The total catchment populations for these cinemas all lie within 35,000 of each other, a remarkably small variance given the nature of the urban and physical geographies of this region. In addition, a breakdown of the demographics of these catchments show little variation in the proportion without a car or the proportion of the population within the cinema sector's core youth market. Dundalk's status as the major town of the North East also means it is unsurprising that it has the largest catchment population of a single cinema (as mentioned earlier, the Navan figures included 2 theatres), although it is the smallest in terms of proportion of youth.</p>
+
+<p>Although these figures tell us little in themselves, except that all of the cinemas in the region are serving similar sized and aged populations, they give us a baseline against which we can establish the extent of the effects of the other 3 scenarios studied, which are discussed in turn below.</p>
+
+<h2><em><a name="4dot3-scenario-2-only-marshes-proposal-is-approved"></a>4.3 – Scenario 2 – Only Marshes proposal is approved</em></h2>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure08.png" alt="alt text" title="Figure 8: Catchments for cinemas in north-eastern Ireland, with Marshes cinema" /></p>
+
+<p><strong><em><a name="figure08"></a>Figure 8: Catchments for cinemas in north-eastern Ireland, with Marshes cinema</em></strong></p>
+
+<p>In the scenario in which only the proposed Marshes cinema is built, several interesting things happen, based as much around what doesn't change as what does. The first is to note that the total catchment for the Dundalk cinemas remains essentially unchanged, while the Marshes cinema captures the small areas in the centre of the county, in Cooley, and in north Meath, which previously were within the catchment of the IMC. It also captures a small number of small areas belonging to the Newry, Navan, and Drogheda cinemas, but the majority of its catchment population comes from population taken from the IMC Dundalk, and roughly 13,000 included in catchments for the first time, as shown in the table below.</p>
+
+<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
+|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
+|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
+|    IMC Dundalk    |         66131    |          106247    |    -40116    |            4147    |    14.9366%    |          18320    |    27.7026%    |
+|    Navan          |        124472    |          124713    |      -241    |            4498    |     9.3518%    |          33123    |    26.6108%    |
+|    Newry          |         14128    |           14834    |      -706    |             449    |     7.2724%    |           3576    |    25.3114%    |
+|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
+|    Drogheda       |         95241    |           95592    |      -351    |            5129    |    13.6861%    |          25674    |    26.9569%    |
+|    The Marshes    |         53658    |               0    |    +53658    |            3247    |    14.4388%    |          15202    |    28.3313%    |
+<strong><em><a name="table3"></a>Table 3: Demographic information for catchments, with Marshes cinema</em></strong></p>
+
+<p>This table demonstrates that both the Dundalk catchment areas in this scenario quite low, with the Marshes a mere 7,000 higher than the Ashbourne catchment which, as mentioned earlier, is partial. The high carless percentage indicates that much of the catchment for these two cinemas likely lives within Dundalk's limits, but the small leg up in youth percentage that The Marshes has is unlikely to offset the major disadvantage it faces in terms of total population served.</p>
+
+<h2><em><a name="4dot4-scenario-3-only-retail-park-proposal-is-approved"></a>4.4 – Scenario 3 – Only Retail Park proposal is approved</em></h2>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure09.png" alt="alt text" title="Figure 9: Catchments for cinemas in north-eastern Ireland, with Retail Park cinema" /></p>
+
+<p><strong><em><a name="figure09"></a>Figure 9: Catchments for cinemas in north-eastern Ireland, with Retail Park cinema</em></strong></p>
+
+<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
+|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
+|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
+|    IMC Dundalk    |         75736    |          106247    |    -30511    |            4704    |    14.7143%    |          21026    |    27.7622%    |
+|    Navan          |        123885    |          124713    |      -828    |            4467    |     9.3518%    |          32977    |    26.6190%    |
+|    Newry          |         14834    |           14834    |         0    |             469    |     7.2770%    |           3740    |    25.2124%    |
+|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
+|    Drogheda       |         90998    |           95592    |     -4594    |            4814    |    13.5229%    |          24418    |    26.8336%    |
+|    Retail Park    |         49820    |               0    |    +49820    |            2728    |    13.4623%    |          14275    |    28.6532%    |
+<strong><em><a name="table4"></a>Table 4: Demographic information for catchments, with Retail Park cinema</em></strong></p>
+
+<p>In the scenario in which only the Retail Park cinema is constructed, a similar reshuffling of small areas across catchments is witnessed to the south of Dundalk, while the small areas on the Cooley Peninsula are unaffected. As with the Marshes cinema, the new cinema sees a marginally higher proportion of youth in its catchment to the IMC Dundalk, and in fact would have the highest proportion of youth in its catchment of any of the 7 cinemas analyzed in this scenario.</p>
+
+<p>Most likely because of its more peripheral and southern location within Dundalk, the Retail Park site affects a much smaller decrease (about 75%) of the one affected by the Marshes on the IMC Dundalk catchment. However, its total catchment size is only about 5,000 smaller, with much of the difference being made up in the 4,500 punters it takes from the Drogheda catchment in this scenario. The difference in carless proportion is negligible, although unlike The Marshes it sees a lower carless percentage combined with a higher youth percentage. While the Retail Park's catchment population here is likely too small to sustain a cinema, it does not drag the IMC down to this level as The Marshes proposal would do.</p>
+
+<h2><em><a name="4dot5-scenario-4-both-proposals-are-approved"></a>4.5 – Scenario 4 – Both proposals are approved</em></h2>
+
+<p><img src="https://raw.githubusercontent.com/murphjarvc52/dundalkcinemastudy/gh-pages/Maps/figure10.png" alt="alt text" title="Figure 10: Catchments for cinemas in north-eastern Ireland, with both proposed cinemas" /></p>
+
+<p><strong><em><a name="figure10"></a>Figure 10: Catchments for cinemas in north-eastern Ireland, with both proposed cinemas</em></strong></p>
+
+<p>|    Cinema         |    Total Pop.    |    Initial Pop.    |    Change    |    Total No Car    |    % No Car    |    Total 15-34    |     % 15-34    |
+|-------------------|-----------------:|-------------------:|-------------:|-------------------:|---------------:|------------------:|---------------:|
+|    Ashbourne      |         46114    |           46114    |         0    |            1027    |     6.2390%    |          13209    |    28.6442%    |
+|    IMC Dundalk    |         65062    |          106247    |    -41185    |            4120    |    15.0860%    |          18006    |    27.6751%    |
+|    Navan          |        123885    |          124713    |      -828    |            4467    |     9.3518%    |          32977    |    26.6190%    |
+|    Newry          |         14834    |           14834    |         0    |             469    |     7.2770%    |           3740    |    25.2124%    |
+|    Cavan          |         98829    |           98829    |         0    |            5055    |    11.3435%    |          26589    |    26.9040%    |
+|    Drogheda       |         90998    |           95592    |     -4594    |            4814    |    13.5229%    |          24418    |    26.8336%    |
+|    Retail Park    |         47923    |           49820    |     -1897    |            2447    |    12.7827%    |          13622    |    28.4248%    |
+|    The Marshes    |         19490    |           53658    |    -34168    |            1523    |    17.4636%    |           5825    |    29.8871%    |
+<strong><em><a name="table5"></a>Table 5: Demographic information for catchments, with both proposed cinemas</em></strong></p>
+
+<p>In a scenario in which both cinemas are approved, the results are quite different and yet quite similar to the other scenarios tested. The IMC Dundalk's catchment population is near identical to the one generated in The Marshes scenario, and The Retail Park again obtains roughly 4,500 individuals from the Drogheda catchment, while only being 2,000 smaller than in the scenario where only it is approved.</p>
+
+<p>The Marshes suffers greatly in this scenario: with the small areas to the south and north of the towns being taken by the IMC and Retail Park facilities, it draws its entire catchment from a small number of small areas within the town, and a number from the Cooley Peninsula. Its catchment population here, below 20,000, is almost certainly unviable, and is barely larger than the number of individuals from the Republic who would frequent the Newry Omniplex as their main cinema.</p>
+
+<p>Interestingly, in these scenarios The Marshes sees abnormally (compared to the general figures obtained across facilities and scenarios) high levels of youth population and carlessness, likely reflecting the fact that much of its population is located within the Dundalk town itself. While the desirability of a youth-heavy population for a cinema was discussed in section 4.1, it is unlikely that the elevated levels here would be enough to sustain a cinema with such a low catchment population to begin with.</p>
+
+<h2><em><a name="4dot6-commentary-on-viability-of-proposals"></a>4.6 – Commentary on viability of proposals</em></h2>
+
+<p>Across the 3 scenarios concerning the construction of the proposed cinemas in this project, a number of patterns emerge. The first is that, quite clearly, the construction of either or both of the cinemas, while not necessarily being fatal for the IMC Dundalk, would make its survival very difficult, as its catchment population is reduced by a quarter to over a third in all scenarios. However, while this is the strongest negative impact suggested by these scenarios, the construction of the new cinemas does actually increase the total population for all Dundalk cinema catchments, with, taken separately, The Marshes bringing roughly 13,500 new individuals into the fold and the Retail Park site bringing in nearly 20,000. It is possible that if these cinemas were to be constructed and then, as discussed in further detail in section 5.2, fail, that the IMC Dundalk would benefit in the long-term from people who had started to treat Dundalk as the town in which their nearest cinema is located.</p>
+
+<p>In all scenarios, the construction of the new cinemas has a negligible impact on cinemas outside of Dundalk. Surprisingly, Newry's reach into the Republic is not significantly hindered by the construction of a second Dundalk cinema, suggesting the entrenchment of its status as the commercial and cultural hub for a significant portion of northern Louth. Drogheda loses roughly 5,000 individuals from the Retail Park in any scenario entailing its completion, but unlike with the IMC Dundalk, this loss does not lower its catchment population to a level where its viability as a multiplex cinema would be in question.</p>
+
+<p>Looking at the figures generated for the new cinemas in all 3 scenarios involving their construction, it is safe to say that these cinemas are unlikely to be viable proposals without the closing of the IMC Dundalk. While The Marshes may have boosted viability from its location within Dundalk's central shopping centre, the more advanced status of the Retail Park proposal, and the figures the Marshes site generates in a scenario wherein both proposed cinemas are constructed, hints that, of the two proposals, it is the least viable. However, the Retail Park can also not be deemed viable in itself, as, in the scenario where it is constructed and The Marshes cinema is not, it has a smaller catchment population than The Marshes' when taken alone (49,000 vs. 53,000).</p>
+
+<p>Considering the figures the scenarios outlined above have generated, it is clear that neither site is likely to be viable as a Multiplex site, given the competition presented from the IMC Dundalk (which remains the largest Dundalk cinema in all generated scenarios), and the competition from other cinemas in the region (in particular from Newry and Drogheda). Further commentary and recommendations based on this conclusion are discussed in section 5.2, but at this point it will suffice to say that the proposals are, at least in the models used in this report, not viable in the short- or long-term unless significant (and unlikely) changes take place in the region's demographics and cultural landscape. Given this, it is unclear in what sense the operators expect the cinemas proposed to be viable, unless the plans entail the short-term goal of eliminating the IMC Dundalk as competition, as without such a step, their proposals will quickly fail themselves.</p>
+
+<h1><strong><a name="5-conclusions-and-critical-commentary"></a>5: Conclusions and critical commentary</strong></h1>
+
+<h2><em><a name="5dot1-commentary-on-project-shortcomings"></a>5.1 - Commentary on project shortcomings</em></h2>
+
+<p>While this project has showed the utility of network analysis and geodemographic analysis to planning decisions, the detail and extent of the data, and the effect these had on the methods use, require a small number of qualifications.</p>
+
+<p>Firstly, the NISRA small areas shapefile, unlike the Republic equivalent, contained no demographic information whatsoever, being limited to the small area’s name and ward code, its area in hectares, and its co-ordinates. This meant that statistical analysis of any service area that included Northern SAs would not those Northern SAs in its population estimates, instead showing only the total of Republic residents in any given category.</p>
+
+<p>However, this does not significantly harm the analysis. Considering the attendant economic factors of cross-border commerce, in particular the exchange rates of the Euro and Pound Sterling, mean that although some Northern SAs do lie within the catchments of cinemas in the Republic, it is unlikely that residents in these SAs would frequent those cinemas, whereas it is demonstrably true that residents in the Republic will attend a Northern cinema regularly if it is closer and more convenient to them than their nearest cinema in the Republic. This is consistent with the broader trends of cross-border commerce, where several factors will lead many residents in the Republic to treat a Northern border city, such as Newry, as their commercial centre, whereas residents in the North will primarily or exclusively travel to the Republic for reasons of tourism. Thus the catchment areas’ exclusion of Northern population figures (especially in the case of Newry) make them more pertinent to the analysis, as they demonstrate how many individuals who would plausibly frequent a cinema in the Republic use a Northern cinema as their primary one.</p>
+
+<p>A second issue concerned a cinema site that lies within the study area and had been included in the original dataset, namely, the Armagh Omniplex. While the data obtained for this site would have the same conditions as the Newry catchment discussed in the previous paragraph, the site ultimately had to be deleted from the network analysis as Network Analysis was unable to locate it on the Irish routes file it had been provided. The analysis was undertaken without it, and as the maps in chapter 4 demonstrate, its removal has had a limited impact on the service area outlines and population figures obtained.</p>
+
+<p>A final issue concerned the lack of information in industry literature on certain aspects of cinema attendance in Ireland. Firstly, reports and articles from and concerning Irish cinema did not contain any information on how cinema attendance varied by social class, while similar information was available for age and gender. Secondly, there was little detailed demographic information about the adoption of film streaming services, and no concrete information about the effect the adoption of these services has had and will have on cinema attendance nationally, although the consensus in coverage of the issue is that these services will negatively impact cinema attendance as they gain a wider penetration.</p>
+
+<p>With these qualifications in mind, it is still possible to assert the usefulness and detail of the datasets, and that the analysis taken has succeeded in offering detailed information about the scenarios presented, and the viability of cinemas in the North East. While the analysis could be enhanced through extensive field work studying the class and technological factors in cinema attendance, the time commitment required for such research was beyond what was available for this project. They are still included however, as something to keep in mind when interpreting the results presented and using them in any decisions concerning cultural amenities and urban planning.</p>
+
+<h2><em><a name="5dot2-recommendations"></a>5.2 - Recommendations</em></h2>
+
+<p>Considering the analysis in chapter 4, this report would make the strong recommendation that neither of the 2 proposed cinemas be approved. In all scenarios entailing the construction of a new cinema, the catchment population for all Dundalk cinemas was significantly reduced, to the level where their viability as cinemas would be under question.</p>
+
+<p>With the exception of the Ashbourne cinema, whose catchment population is likely underestimated because of Meath being the study area’s southern boundary, the 4 existing cinemas all have similarly sized catchment populations. This would indicate that this is the optimum population served for cinemas in the North East, considering population density in the region. With this in mind, the sharp reduction experienced by IMC Dundalk in new cinema scenarios is troubling, as are the population figures generated for the proposed new cinemas.</p>
+
+<p>The figures generated suggest that if either of the new cinemas are approved and built, it will result in a competition between all the Dundalk cinemas that will result in only one remaining open. While the construction work entailed in building a new cinema may provide short-term economic benefits, as would the utilization of the currently vacant unit in the Dundalk Retail Park, in the long-term a new cinema would be a horizontal move in economic terms. While the new cinemas would provide benefits in, for example, job creation, this will eventually be cancelled out by the closing of any other Dundalk cinema in such a scenario.</p>
+
+<p>However, if it deemed absolutely necessary that either of the proposals be approved as it, this report recommends the Retail Park be chosen. If the Marshes’ proposal were to be realized, its existing capture of foot traffic and consumer spending in the town would give any cinema on its grounds a significant advantage over any nearby competitors. The subsequent capture of cultural foot traffic in the town would lead to a further decline in the situation of the centre of the town, harming the economic viability of already struggling shops on Clanbrassil Street. Locating cultural amenities away from The Marshes is recommended where possible as a means of ensuring an optimally-broad distribution of foot traffic and spending across the town, enhancing its commercial and cultural diversity and preventing the uneven development and deterioration of the town in already difficult economic times.</p>
+
+<p>Leading on from this, the report recommends that, if possible, a revised proposal for a cinema on the Retail Park site be approved. While Dundalk has been shown in this report to be incapable of supporting more than one multiplex, Navan, a town of similar size, currently supports 2 which operate under different styles. Such a model should be strongly considered for Dundalk, as it would enhance the cultural life of the town which has seen a strong decline in the variety and availability of its cultural amenities over the last decade.</p>
+
+<p>In the reports by the Irish Film Board (2009) and Arts Council (Inglis &amp; Todd, 2004), several possible cinema styles for such a model are suggested. One possible model would be to separate the cinemas based on age, operating one cinema in a simpler and cheaper way geared towards younger audiences, and operating the other cinema in way that emphasizes secondary affective aspects of cinema attendance, and is geared towards older audiences. It may also be possible to revive a “second-run” model, where recently released films no longer in cinemas are shown with a heavily reduced ticket price, appealing to segments of the Dundalk population who either can’t avail of streaming services or are no longer served by a video rental store, many of which have closed down in the Dundalk area over recent years.</p>
+
+<p>The ideal model for a second cinema in such a scenario, however, is an art house which would exhibit films produced by the Irish film industry, along with other films unlikely to receive wide distribution at Ireland’s multiplexes. Given the distribution of film revenues between blockbusters and small, foreign language, and Irish films discussed in the Irish Film Board’s report (2009), though, it is unlikely that such a cinema would be able to find a private operator, or that the developers would accept such a revision to their proposal.</p>
+
+<p>With all this in mind, this report strongly supports the initial rejection of the Marshes proposal by An Bord Pleanála, and, with strong reservations, offers qualified support of its initial approval of the Retail Park proposal (Smyth, 2014), but reserves ultimate judgment as the planning process for both sites is by no means over, with circumstances likely to change over the coming years.</p>
+
+<h1><strong><a name="bibliography"></a>Bibliography</strong></h1>
+
+<p>Anders, C. J., 2011. How much money does a movie need to make to be profitable?. [Online]
+Available at: http://io9.com/5747305/how-much-money-does-a-movie-need-to-make-to-be-profitable
+[Accessed 27 April 2014].</p>
+
+<p>Biskind, P., 2005. Down and Dirty Pictures: Miramax, Sundance, and the Rise of Independent Film. New York: Simon &amp; Schuster.</p>
+
+<p>Brook, T., 2013. How the global box office is changing Hollywood. [Online]
+Available at: http://www.bbc.com/culture/story/20130620-is-china-hollywoods-future
+[Accessed 19 April 2014].</p>
+
+<p>Campbell, A., 2012. Superquinn store in doubt after takeover. The Argus, 1 December.</p>
+
+<p>Cox, D., 2012. How older viewers are rescuing cinema. The Guardian, 8 March.</p>
+
+<p>Department of Environment, Community, and Local Government, 2002. National Spatial Strategy 2002-2020, Dublin: The Stationery Office.</p>
+
+<p>Hughes, M., 2013. 2013 Sets All-Time Box Office Record. Forbes, 3 January.</p>
+
+<p>IDA Ireland, 2014. Locations of Ireland - North East. [Online]
+Available at: http://www.idaireland.com/locations/regions-of-ireland/north-east/
+[Accessed 24 April 2014].</p>
+
+<p>IMC Dundalk, 2013. New unemployed rate. [Online]
+Available at: http://www.imccinemas.ie/events.asp?idcinema=19&amp;idevent=84
+[Accessed 18 April 2014].</p>
+
+<p>Inglis, J. R. &amp; Todd, S., 2004. The cultural and economic trends of Cinema in Ireland and Wales, Dublin: The Arts Council.</p>
+
+<p>Irish Film Board, 2009. Talent, Creativity, Enterprise: Irish Film Industry Review 2005-2009, Dublin: Irish Film Board.</p>
+
+<p>Kleinman, A., 2013. Netflix Wants To Replace The Movie Theater. [Online]
+Available at: http://www.huffingtonpost.com/2013/10/28/netflix-movies<em>n</em>4169752.html
+[Accessed 27 April 2014].</p>
+
+<p>Lieberman, D., 2013. Movie Attendance Likely To Drop In 2013, And Beyond: Report. [Online]
+Available at: http://www.deadline.com/2013/04/movie-attendance-likely-drop-2013-fitch/
+[Accessed 22 April 2014].</p>
+
+<p>McCabe, S., 2014. Silver screen loses lustre as cinema takings across Europe fall. The Irish Independent, 18 February.</p>
+
+<p>Smyth, P., 2013. Cinema wars in Dundalk as rivals object to proposal at Retail Park. [Online]
+Available at: http://talkofthetown.ie/2013/12/03/cinema-wars-in-dundalk-as-rivals-object-to-proposal-at-retail-park/
+[Accessed 27 March 2014]</p>
+
+<p>Smyth, P., 2013. New cinema at Dundalk Retail Park gets the go-ahead. [Online]
+Available at: http://talkofthetown.ie/2013/11/06/new-cinema-at-dundalk-retail-park-gets-the-go-ahead/
+[Accessed 27 March 2014]</p>
+
+<p>Smyth, P., 2014. Cinema at Dundalk Retail Park given the go ahead. [Online]
+Available at: http://talkofthetown.ie/2014/04/23/cinema-at-dundalk-retail-park-given-the-go-ahead/
+[Accessed 28 April 2014]</p>
+
+<p>Smyth, P., 2014. Marshes pushing ahead with plans for new Dundalk cinema. [Online]
+Available at: http://talkofthetown.ie/2014/01/06/marshes-pushing-ahead-with-plans-for-new-dundalk-cinema/
+[Accessed 27 March 2014]</p>
+
+<p>Stokes, S., 2014. Plan to develop Ireland’s first indoor velodrome to be unveiled this week. The Irish Times, 4 February.</p>
+
+<p>The Adelphi Centre, 2011. History of the Adelphi Cinema and Ballrooms. [Online]
+Available at: http://adelphidundalk.com/adelphi-history.php
+[Accessed 11 March 2014]</p>
+
+<p>The Argus, 2012. Unemployment rate likely to be much higher in disadvantaged areas. The Argus, 2 December.</p>
+
+<p>The Dundalk Democrat, 2013. Harvey Norman to close. The Dundalk Democrat, 12 March, pp. 1-2.</p>
